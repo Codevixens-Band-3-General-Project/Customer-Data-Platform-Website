@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.p-relative {
+    position: relative;
+}
+div {
+    display: block;
+}
+body {
+    font-family: var(--tp-ff-body);
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--tp-text-body);
+    line-height: 1.3;
+    overflow-x: hidden;
+}
+.about-shape-1 {
+    position: absolute;
+    top: 10%;
+    left: 0;
+}
+img {
+    max-width: 100%;
+}
+img, svg {
+    vertical-align: middle;
+}
+.about-shape-2 {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+.z-index-3 {
+    z-index: 3;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
