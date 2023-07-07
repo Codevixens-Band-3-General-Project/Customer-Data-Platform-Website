@@ -1,0 +1,91 @@
+body{
+  overflow-x: hidden;
+  font-family: sans-serif;
+}
+.container{
+  background-color: purple;
+  height: 500px;
+  width: 100%;
+  color: whitesmoke;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  flex: 1fr 2fr 1fr;
+  color: azure;
+  width: inherit;
+  position: relative;
+  font-size: 20px;
+  justify-content: space-between;
+}
+nav a{
+  color: whitesmoke;
+  margin-right: 40px;
+}
+nav>div:nth-of-type(2){
+  position: absolute;
+  left: 250px
+
+}
+nav>div:first-of-type{
+  position: absolute;
+  left: 50px;
+}
+nav>div:last-of-type{
+  position: absolute;
+  right: 50px;
+}
+
+nav>div:last-of-type>img{
+  width: 30px;
+  height: 30px;
+}
+.sec-one{
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.sec-one>img{
+  position: absolute;
+  bottom: -200px;
+  width: inherit;
+  height: inherit;
+  border-radius: 10%;
+  
+}
+main>section:nth-of-type(2){
+  text-align: center;
+  
+}
+main>section:nth-of-type(2)>div{
+  width: 70%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+section{
+  margin-top: 30px;
+}
+main>section:nth-of-type(3)>div{
+  display: flex;
+  flex-direction: row;
+  
+}
+main>section:nth-of-type(3)>div>div{
+  width: 100%;
+}
+.pop>img{
+  width: 30px;
+  height: 30px;
+}
+main>section:nth-of-type(4){
+  margin-top: 30px;
+}
+
+
