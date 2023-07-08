@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  overflow-x: hidden;
+  font-family: sans-serif;
+}
+.container{
+  background-color: purple;
+  height: 500px;
+  width: 100%;
+  color: whitesmoke;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  flex: 1fr 2fr 1fr;
+  color: azure;
+  width: inherit;
+  position: relative;
+  font-size: 20px;
+  justify-content: space-between;
+}
+nav a{
+  color: whitesmoke;
+  margin-right: 40px;
+}
+nav>div:nth-of-type(2){
+  position: absolute;
+  left: 250px
+
+}
+nav>div:first-of-type{
+  position: absolute;
+  left: 50px;
+}
+nav>div:last-of-type{
+  position: absolute;
+  right: 50px;
+}
+
+nav>div:last-of-type>img{
+  width: 30px;
+  height: 30px;
+}
+.sec-one{
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.sec-one>img{
+  position: absolute;
+  bottom: -200px;
+  width: inherit;
+  height: inherit;
+  border-radius: 10%;
+  
+}
+main>section:nth-of-type(2){
+  text-align: center;
+  
+}
+main>section:nth-of-type(2)>div{
+  width: 70%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+section{
+  margin-top: 30px;
+}
+main>section:nth-of-type(3)>div{
+  display: flex;
+  flex-direction: row;
+  
+}
+main>section:nth-of-type(3)>div>div{
+  width: 100%;
+}
+.pop>img{
+  width: 30px;
+  height: 30px;
+}
+main>section:nth-of-type(4){
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+}
+main>section:nth-of-type(4)>div{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  
+}
+.head-div>div{
+  width: 100%;
+  height: 100%;
+}
+
+.about{
+  /*background-image: url(https://weblearnbd.net/tphtml/softec-prv/softec/assets/img/about/about-bg-shape.png);
+  
+  background-repeat: no-repeat;
+  */
+  
+  position: relative;
+  
+  padding-bottom: 50px;
+  
+  
+}
+.about>img:first-of-type{
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  top: -40px
+}
+
+.about>img:nth-of-type(2){
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  top:100px ;
+  right: 100px;
+}
+
+.about>img:nth-of-type(3){
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  bottom: -40px;
+}
+.about>img:last-of-type{
+  
+  bottom: -100px;
+  width: 20px;
+}
+
+
+
+.about-2 *{
+  margin-top: 10px;
+}
+.team-head{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 100px;
+  padding: 60px;
+}
+.cards{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.team-card{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  justify-content: space-between;
+  padding: 10px 140px;
+}
+.team-card>img{
+  height: 120px;
+  width: 150px;
+}
+.media{
+  display: flex;
+  flex-direction: row;
+}
+.media>img{
+  width: 20px;
+  height: 20px;
+}
+.timeline{
+  
+}
+.timeline-div{
+  display: flex;
+  flex-direction: row;
+  padding: 10px 140px;
+}
+.timeline-div>div{
+  border: 1px solid gray;
+  margin-right: 10px;
+  text-align: left;
+}
+.position{
+  padding: 10px 140px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid gray;
+  border-radius: 5%;
+  margin:10px 30px
+}
+
+.position img{
+  width: 30px;
+  height: 30px;
+}
+.service{
+  background-color: blue;
+  text-align: center;
+  padding: 10px 140px;
+  margin:10px 30px;
+  height: 200px;
+  color: white;
+  
+}
+.service *{
+  margin-top: 30px;
+}
+.last{
+  display: flex;
+  flex-direction: row;
+  padding: 10px 140px;
+}
+.last>div{
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+#main-logo{
+  width: 100px;
+  height: 70px;
+}
+.last img{
+  width: 30px;
+  height: 30px;
+}
+
+footer{
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+
+
