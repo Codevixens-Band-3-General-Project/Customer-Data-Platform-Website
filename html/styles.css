@@ -33,6 +33,16 @@ img, svg {
     top: 0%;
     right: 0%;
 }
+.about-img-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 110px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: #600EE4;
+    margin-left: 100px;
+    margin-top: -140px;
+}
 .z-index-3 {
     z-index: 3;
     position: relative;
