@@ -20,3 +20,11 @@
 .section-1 {
     background-color: #600ee4;
 }
+
+.d-flex {
+    display: flex;
+}
+
+.row {
+    flex-wrap: wrap;
+}
