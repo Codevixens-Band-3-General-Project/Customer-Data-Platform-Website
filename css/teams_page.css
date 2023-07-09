@@ -135,4 +135,13 @@ span.home > a, .span-2 {
 .team-img {
     width: 100%;
 }
+
+.team-content > a{
+    text-decoration: none;
+    color: #000229;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    margin-bottom: 0.5rem;
+}
 /* end of css styling for section-2  */
