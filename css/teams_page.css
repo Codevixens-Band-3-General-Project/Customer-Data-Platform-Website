@@ -117,4 +117,25 @@ span.home > a, .span-2 {
 .ta {
     text-align: center;
 }
+
+.members > div {
+    width: 25%;
+}
+
+.b-r {
+    border-right: 1px solid #08082914;
+    position: relative;
+}
+
+.fw {
+    flex-wrap: wrap;
+}
+
+/* .members {
+    justify-content: space-between;
+} */
+
+.team-img {
+    width: 100%;
+}
 /* end of css styling for section-2  */
