@@ -9,6 +9,7 @@
     width: 85%;
 }
 
+/* start of css styling for section-1  */
 .transparent-1 {
     position: absolute;
     top: 50%;
@@ -43,3 +44,4 @@
     display: flex;
     justify-content: end;
 }
+/* end of css styling for section-1  */
