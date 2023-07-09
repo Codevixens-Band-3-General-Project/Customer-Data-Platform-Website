@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 .container {
@@ -25,6 +26,8 @@
 
 .section-1 {
     background-color: #600ee4;
+    padding-top: 115px;
+    padding-bottom: 35px;
 }
 
 .d-flex {
@@ -71,5 +74,11 @@ span.home > a, .span-2 {
     width: 30%;
     display: flex;
     justify-content: end;
+}
+
+.robot {
+    position: absolute;
+    top: 150px;
+    right: 100px;
 }
 /* end of css styling for section-1  */
