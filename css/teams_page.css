@@ -37,6 +37,34 @@
 
 .text {
     width: 70%;
+    margin-top: 60px;
+}
+
+.text > h3 {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    padding-bottom: 12px;
+}
+
+span.home > a, .span-2 {
+    color: #ffffffb3;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.span-2 {
+    margin-left: 1%;
+}
+
+.text span:last-child {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-left: 1%;
 }
 
 .img {
