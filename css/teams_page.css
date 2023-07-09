@@ -33,3 +33,13 @@
 .row {
     flex-wrap: wrap;
 }
+
+.text {
+    width: 70%;
+}
+
+.img {
+    width: 30%;
+    display: flex;
+    justify-content: end;
+}
