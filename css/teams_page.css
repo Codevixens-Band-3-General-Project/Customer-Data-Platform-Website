@@ -92,4 +92,29 @@ span.home > a, .span-2 {
 .pl, .pr {
     padding: 0 30px 0 30px;
 }
+
+.meet-team {
+    margin-bottom: 70px;
+}
+
+.meet-team > div:last-child > h5 {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.06em;
+    color: #6B14FA;
+    padding-bottom: 10px;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.meet-team > div:last-child > h3 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+.ta {
+    text-align: center;
+}
 /* end of css styling for section-2  */
