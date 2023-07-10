@@ -176,14 +176,14 @@ span.home > a, .span-2 {
 /* end of css styling for section-2  */
 
 /* start of css styling for section-3  */
-.grey-bg {
+/* .grey-bg {
     height: 170px;
     width: 100%;
     position: absolute;
     bottom: 0;
     z-index: -1;
     background: #eeeef5;
-}
+} */
 
 .bg-img {
     background-image: url(/Assets/sec-3/bg.webp);
