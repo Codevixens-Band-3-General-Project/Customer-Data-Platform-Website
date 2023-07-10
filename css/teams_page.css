@@ -238,4 +238,24 @@ footer {
     border-bottom: 1px solid #DFDFEA;
     padding-bottom: 45px;
 }
+
+.copyright {
+    padding: 20px 0;
+}
+
+.copyright > div:last-child {
+    padding: 0 30px;
+}
+
+.c-span {
+    color: #5f6368;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 12px;
+}
+
+.c-span > a {
+    color: #000229;
+    text-decoration: none;
+}
 /* end of css styling for footer  */
