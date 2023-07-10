@@ -239,6 +239,22 @@ footer {
     padding-bottom: 45px;
 }
 
+.pd {
+    padding: 0 30px 0 30px;
+}
+
+.row-flex {
+    width: 25%;
+}
+
+.rf-2 {
+    width: 20%;
+}
+
+.rf-3 {
+    width: 30%;
+}
+
 .copyright {
     padding: 20px 0;
 }
