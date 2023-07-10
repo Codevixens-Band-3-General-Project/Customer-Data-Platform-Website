@@ -134,6 +134,20 @@ span.home > a, .span-2 {
 
 .team-img {
     width: 100%;
+    background-color: #B2B6FF;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.team-img > img {
+    mix-blend-mode: luminosity;
+    border-radius: 100px;
+    transform: translateY(15px);
 }
 
 .team-content > a{
@@ -143,5 +157,20 @@ span.home > a, .span-2 {
     font-size: 22px;
     line-height: 26px;
     margin-bottom: 0.5rem;
+}
+
+.team-content {
+    margin-bottom: 30px;
+}
+
+.team-content p {
+    margin-top: 0.5rem;
+    color: #5F6168;
+    opacity: 0.7;
+}
+
+.team-socials > a {
+    color: #5f6368;
+    text-decoration: none;
 }
 /* end of css styling for section-2  */
