@@ -229,5 +229,13 @@ span.home > a, .span-2 {
 /* end of css styling for section-3  */
 
 /* start of css styling for footer  */
+footer {
+    background: #eeeef5;
+    padding-top: 105px;
+}
 
+.b-b {
+    border-bottom: 1px solid #DFDFEA;
+    padding-bottom: 45px;
+}
 /* end of css styling for footer  */
