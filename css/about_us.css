@@ -11,7 +11,7 @@ body{
   background-color: purple;
   height: 500px;
   width: 100%;
-  color: whitesmoke;
+  color: black;
 }
 
 
@@ -19,15 +19,16 @@ nav{
   display: flex;
   flex-direction: row;
   flex: 1fr 2fr 1fr;
-  color: azure;
+  color: black;
   width: inherit;
   position: relative;
   font-size: 20px;
   justify-content: space-between;
- padding-top: 10px;
+  padding-top: 10px;
+  position: fixed;
 }
 nav a{
-  color: whitesmoke;
+  color: black;
   margin-right: 40px;
 }
 nav>div:nth-of-type(2){
@@ -60,24 +61,22 @@ nav>div:last-of-type>img{
   height: 20px;
 }
 .sec-one{
+  background: url("https://weblearnbd.net/tphtml/softec-prv/softec/assets/img/breadcrumb/breadcrumb-2.jpg");
   justify-content: center;
   align-items: center;
   width: 80%;
-  height: 400px;
-  margin-left: auto;
-  margin-right: auto;
+  height: 600px;
+  margin: -350px auto 40px auto;
   padding-bottom: 0px;
-  margin-bottom: 0px;
-  
-}
-
-.sec-one>img{
-  position: absolute;
-  bottom: -200px;
-  width: inherit;
-  height: 100%;
   border-radius: 10%;
-  
+  position: relative;
+}
+.sec-one>span{
+  position: absolute;
+  top:100px;
+  color: purple;
+  font-size: 80px;
+  font-weight: bolder;
 }
 main>section:nth-of-type(2){
   text-align: center;
