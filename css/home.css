@@ -1,6 +1,4 @@
 *{
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
@@ -9,6 +7,16 @@
     width: 95%;
     margin: auto;
     box-sizing: border-box;
+}
+
+nav{
+    background: linear-gradient(180.21deg, #FFF9F9 -64.58%, rgba(255, 255, 255, 0.1) 115.31%), linear-gradient(90deg, #FFC368 0%, #D569E1 50%, #4164E1 100%);
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
 }
 
 .header-top{
@@ -39,15 +47,6 @@
     padding-top: 70px;
 }
 
-nav{
-    background: linear-gradient(180.21deg, #FFF9F9 -64.58%, rgba(255, 255, 255, 0.1) 115.31%), linear-gradient(90deg, #FFC368 0%, #D569E1 50%, #4164E1 100%);
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    width: 100%;
-}
 
 .list{
     display: flex;
@@ -64,12 +63,126 @@ ul{
     width: 60%;
     margin: auto;
     border-radius: 30px;
+    object-fit: contain;
     gap: 16px;
     background-color: rgb(236, 230, 230);
+    box-shadow: 10px 10px rgb(235, 233, 233);
 }
 
+.top{
+    padding-top: 55px;
+}
+
+
 .hero img{
-    padding: 5px;
+    padding: 10px;
+}
+
+.fix{
+    width: 80%;
+    margin: auto;
+}
+
+.fix h1{
+    text-align: center;
+    font-size: 80px;
+    padding-top: 70px;
+    padding-bottom: 1px;
+    margin-bottom: 0px;
+}
+
+.fix p{
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+
+.fix-imgs{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.fix-imgs div{
+    padding: 30px;
+    border: 1px solid black;
+    box-shadow: 1px 1px black;
+    border-radius: 30px;
+}
+
+.about{
+    display: flex;
+}
+
+.abt-img{
+    width: 50%;
+}
+
+.abt-details{
+    width: 50%;
+    padding: 10px;
+}
+
+.abt-details p{
+    color: #041e41;
+    border: 1px solid blue;
+    background-color: aquamarine;
+    width: 160px;
+    padding: 3px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.abt-details h1{
+    font-size: 70px;
+}
+
+.abt-details ul li{
+    padding: 15px;
+}
+
+.abt-details a{
+    text-decoration: none;
+    padding: 20px;
+    width: 30px;
+    color: white;
+    background-color: #4164E1;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+    border-top: 30px;
+}
+
+.abt-details a:hover{
+    background-color: #041e41;
+}
+
+.exp-img{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 80px;
+}
+
+.exp-img div div{
+    border-radius: 30px;
+    background-color: aqua;
+    text-align: center;
+}
+
+.chc-div{
+    display: flex;
+}
+
+.check h1{
+    font-size: 70px;
+}
+
+.wd-title{
+    text-align: center;
 }
 
 .footer{
