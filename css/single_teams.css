@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.container {
+    margin: auto;
+    width: 85%;
+}
+
+/* start of css styling for section-1  */
+.transparent-1 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+}
+
+.transparent-2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.section-1 {
+    background-color: #600ee4;
+    padding-top: 115px;
+    padding-bottom: 35px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.row {
+    flex-wrap: wrap;
+}
+
+.text {
+    width: 70%;
+    margin-top: 60px;
+}
+
+.text > h3 {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    padding-bottom: 12px;
+}
+
+span.home > a, .span-2 {
+    color: #ffffffb3;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.span-2 {
+    margin-left: 1%;
+}
+
+.text span:last-child {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-left: 1%;
+}
+
+.img {
+    width: 30%;
+    display: flex;
+    justify-content: end;
+}
+
+.robot {
+    position: absolute;
+    top: 150px;
+    right: 100px;
+}
+/* end of css styling for section-1  */
