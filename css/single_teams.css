@@ -98,10 +98,12 @@ span.home > a, .span-2 {
 
 .img-area {
     width: 33.33333333%;
+    padding: 0 15px 0 15px;
 }
 
 .text-area {
     width: 66.66666667%;
+    padding: 0 15px 0 15px;
 }
 /* end of css styling for section-2  */
 
