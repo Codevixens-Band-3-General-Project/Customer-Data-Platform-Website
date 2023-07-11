@@ -291,6 +291,19 @@ footer a {
     margin-bottom: 18px;
 }
 
+.r-d h4 {
+    color: #202124;
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 25px;
+    margin-bottom: 0.5rem;
+}
+
+.footer-content ul li {
+    margin-bottom: 10px;
+}
+
+
 
 .copyright {
     padding: 20px 0;
