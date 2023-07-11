@@ -326,7 +326,6 @@ footer a {
     font-size: 14px;
 }
 
-
 /* .email span {
     position: absolute;
     top: 50%;
@@ -334,7 +333,18 @@ footer a {
     transform: translateY(-50%);
 } */
 
+.socials h4 {
+    padding-bottom: 8px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 16px;
+    color: #202124;
+}
 
+.socials a {
+    margin-left: 6px;
+    margin-right: 20px;
+}
 
 .copyright {
     padding: 20px 0;
