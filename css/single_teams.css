@@ -85,9 +85,7 @@ span.home > a, .span-2 {
 
 /* start of css styling for section-2  */
 .s2p {
-    padding-top: 100px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 100px 30px 100px 30px;
 }
 
 .subsec-1 {
@@ -147,6 +145,136 @@ span.home > a, .span-2 {
     color: #202124;
     padding-bottom: 20px;
     margin-bottom: 0.5rem;
+}
+
+.contact-box {
+    margin-bottom: 40px;
+}
+
+.social-info a {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 36px;
+    background-color: #FEFEFE;
+    display: inline-block;
+    font-size: 12px;
+    transition: 0.3s;
+    margin-right: 3px;
+    color: #5f6368;
+}
+
+.personal-info a {
+    background-color: #FEFEFE;
+    padding: 8px 20px;
+    border-radius: 30px;
+    margin-right: 7px;
+    text-decoration: none;
+    color: #5f6368;
+}
+
+.personal-info {
+    margin-left: 7px;
+    margin-top: 7px;
+}
+
+.experience-box {
+    padding-bottom: 35px;
+}
+
+.design, .years {
+    margin-right: 100px;
+}
+
+.experience-box span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #87888A;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.experience-box em {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 14px;
+    color: #202124;
+    font-style: normal;
+}
+
+.skill-box h5 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #87888A;
+    padding-bottom: 10px;
+    margin-bottom: 0.5rem;
+}
+
+.skill-box span {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    display: inline-block;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 12px;
+    color: #5F6168;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.subsec-2 {
+    padding: 80px 120px 0 200px;
+}
+
+.text-1 {
+    padding-bottom: 10px;
+}
+
+.text-1 h4 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 30px;
+    color: #000000;
+    padding-bottom: 10px;
+    margin-bottom: 0.5rem;
+}
+
+.text-1 p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    color: #5F6168;
+    padding-right: 30px;
+    margin-bottom: 1rem;
+}
+
+.list {
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+.list ul {
+    list-style-type: unset;
+}
+
+.list ul li {
+    position: relative;
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 34px;
+    color: #5F6168;
+}
+
+.text-2 {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    color: #5F6168;
 }
 /* end of css styling for section-2  */
 
