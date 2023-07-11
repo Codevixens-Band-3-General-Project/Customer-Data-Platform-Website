@@ -89,6 +89,20 @@ span.home > a, .span-2 {
     padding-left: 30px;
     padding-right: 30px;
 }
+
+.subsec-1 {
+    background: #F5F7FA;
+    border-radius: 30px;
+    padding: 60px 40px 70px 40px;
+}
+
+.img-area {
+    width: 35%;
+}
+
+.text-area {
+    width: 65%;
+}
 /* end of css styling for section-2  */
 
 /* start of css styling for section-3  */
