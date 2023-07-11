@@ -126,6 +126,18 @@ span.home > a, .span-2 {
     letter-spacing: -0.02em;
     color: #ffffff;
 }
+
+.work-location span {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 14px;
+    letter-spacing: -0.02em;
+    color: #5F6168;
+}
+
+.work-location span:first-child {
+    padding-right: 10px;
+}
 /* end of css styling for section-2  */
 
 /* start of css styling for section-3  */
