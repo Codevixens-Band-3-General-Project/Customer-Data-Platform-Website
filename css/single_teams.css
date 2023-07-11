@@ -84,7 +84,11 @@ span.home > a, .span-2 {
 /* end of css styling for section-1  */
 
 /* start of css styling for section-2  */
-
+.s2p {
+    padding-top: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
 /* end of css styling for section-2  */
 
 /* start of css styling for section-3  */
