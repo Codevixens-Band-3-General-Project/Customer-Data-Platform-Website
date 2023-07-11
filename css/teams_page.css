@@ -244,7 +244,11 @@ footer {
 }
 
 .row-flex {
-    width: 25%;
+    width: 30%;
+}
+
+.row-flex-2 {
+    width: 20%;
 }
 
 .rf-2 {
@@ -263,6 +267,30 @@ footer a {
     text-decoration: none;
     color: #5f6368;
 }
+
+.r-d {
+    padding-bottom: 30px;
+}
+
+.logo {
+    margin-bottom: 25px;
+}
+
+
+.contact-info > p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #595B62;
+    font-family: var(--tp-ff-urban);
+    padding-bottom: 5px;
+    margin-bottom: 1rem;
+}
+
+.contact-info ul li:first-child {
+    margin-bottom: 18px;
+}
+
 
 .copyright {
     padding: 20px 0;
