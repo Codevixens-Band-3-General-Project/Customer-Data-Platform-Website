@@ -139,3 +139,142 @@ span.home > a, .span-2 {
     text-align: center;
 }
 /* end of css styling for section-3  */
+
+/* start of css styling for footer  */
+footer {
+    background: #eeeef5;
+    padding-top: 105px;
+}
+
+.b-b {
+    border-bottom: 1px solid #DFDFEA;
+    padding-bottom: 45px;
+}
+
+.pd {
+    padding: 0 30px 0 30px;
+}
+
+.row-flex {
+    width: 30%;
+}
+
+.row-flex-2 {
+    width: 20%;
+}
+
+.rf-2 {
+    width: 20%;
+}
+
+.rf-3 {
+    width: 30%;
+}
+
+.Newsletter {
+    padding-left: 40px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: #5f6368;
+}
+
+.r-d {
+    padding-bottom: 30px;
+}
+
+.logo {
+    margin-bottom: 25px;
+}
+
+.contact-info ul li a {
+    padding-left: 15px;
+}
+
+.contact-info > p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #595B62;
+    font-family: var(--tp-ff-urban);
+    padding-bottom: 5px;
+    margin-bottom: 1rem;
+}
+
+.contact-info ul li:first-child {
+    margin-bottom: 18px;
+}
+
+.r-d h4 {
+    color: #202124;
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 25px;
+    margin-bottom: 0.5rem;
+}
+
+.footer-content ul li {
+    margin-bottom: 10px;
+}
+
+.email {
+    margin-bottom: 35px;
+}
+
+.email input {
+    background-color: #ffffff;
+    border: none;
+    height: 60px;
+    width: 100%;
+    border-radius: 40px;
+    padding-left: 55px;
+    padding-right: 80px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* .email span {
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    transform: translateY(-50%);
+} */
+
+.socials h4 {
+    padding-bottom: 8px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 16px;
+    color: #202124;
+}
+
+.socials a {
+    margin-left: 6px;
+    margin-right: 20px;
+}
+
+.copyright {
+    padding: 20px 0;
+}
+
+.copyright > div:last-child {
+    padding: 0 30px;
+}
+
+.c-span {
+    color: #5f6368;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 12px;
+}
+
+.c-span > a {
+    color: #000229;
+    text-decoration: none;
+}
+/* end of css styling for footer  */
