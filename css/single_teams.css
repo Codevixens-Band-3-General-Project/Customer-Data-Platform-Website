@@ -105,6 +105,11 @@ span.home > a, .span-2 {
     width: 66.66666667%;
     padding: 0 15px 0 15px;
 }
+
+.work-image img {
+    border-radius: 50%;
+    background-color: #b3b7ff;
+}
 /* end of css styling for section-2  */
 
 /* start of css styling for section-3  */
