@@ -167,11 +167,16 @@ span.home > a, .span-2 {
     margin-top: 0.5rem;
     color: #5F6168;
     opacity: 0.7;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
 }
 
 .team-socials > a {
-    color: #5f6368;
+    color: #5F6168;
     text-decoration: none;
+    margin-left: 6px;
+    margin-right: 20px;
 }
 /* end of css styling for section-2  */
 
