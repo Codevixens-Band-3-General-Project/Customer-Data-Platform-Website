@@ -547,12 +547,6 @@ path[Attributes Style] {
 .d-none {
     display: none!important;
 }
-.tp-footer__shape-1 {
-    position: absolute;
-    left: 5%;
-    top: 5%;
-    animation: tpupdown 0.8s infinite alternate;
-}
 img {
     max-width: 100%;
 }
@@ -572,4 +566,48 @@ img, svg {
 }
 .pt-20 {
     padding-top: 20px;
+}
+.footer-widget-3 .tp-footer__content ul li {
+    margin-bottom: 10px;
+}
+.tp-footer__content ul li {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+.container {
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (min-width: 992px)
+.container {
+    max-width
+}
+.container {
+    --bs-gutter-x: 30px;
+}
+.row {
+    --bs-gutter-x: 30px;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+@media (min-width: 992px)
+.col-lg-2 {
+    flex: 0 0 auto;
+    width: 16.66666667%;
+}
+@media (min-width: 992px)
+.col-lg-3 {
+    flex: 0 0 auto;
+    width: 25%;
+}
+.pb-30 {
+    padding-bottom: 30px;
 }
