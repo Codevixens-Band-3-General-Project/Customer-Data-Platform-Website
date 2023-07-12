@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/66034b6b5d.js" crossorigin="anonymous"></script>
+    <scr src="https://kit.fontawesome.com/66034b6b5d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/css/single_teams.css">
 </head>
 <body>
@@ -22,14 +22,15 @@
             </div>
             <div class="container">
                 <div class="row d-flex">
-                    <div class="text">
-                        <h3>Team Member</h3>
+                    <div class="text text-head">
+                        <h3>Team Single</h3>
                         <div>
                             <span class="home">
                                 <a href="#">Home </a>
                             </span>
                             <span class="span-2"> > </span>
                             <span>Team Member</span>
+                    
                         </div>
                     </div>
                     <div class="img">
@@ -276,5 +277,24 @@
         </div>
     </footer>
      <!-- footer ends here  -->
+    <script>
+document.addEventListener("DOMContentLoaded", function() {
+  var textHead = document.querySelector('.text-head');
+  var span2 = document.querySelector('.span-2');
+
+  // Trigger initial fade-in animation
+  textHead.classList.add('show');
+
+  // Trigger pop-out animation after a delay
+  setTimeout(function() {
+    span2.classList.add('show');
+  }, 1000);
+});
+
+
+
+  
+    </script>
+        
 </body>
 </html>
