@@ -51,6 +51,28 @@
     color: #FFFFFF;
     padding-bottom: 12px;
 }
+.text-head {
+    opacity: 0;
+    transform: translateX(30px);
+    transition: opacity 1s, transform 1s;
+  }
+  
+  .text-head.show {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .span-2 {
+    transform: scale(0);
+    opacity: 0;
+    transition: transform 1s, opacity 1s;
+  }
+  
+  .span-2.show {
+    transform: scale(1);
+    opacity: 2;
+  }
+  
 
 span.home > a, .span-2 {
     color: #ffffffb3;
