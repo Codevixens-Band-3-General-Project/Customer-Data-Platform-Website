@@ -185,10 +185,181 @@ ul{
     text-align: center;
 }
 
+.testi{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    gap: 0px;
+    padding-bottom: 20px;  
+}
+
+.testi h1{
+    font-size: 50px;
+}
+
+.testi a{
+    text-decoration: none;
+    color: #041e41;
+}
+
+
+
+.testi-1{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    width: 50%;
+    padding: 40px;
+    color: white;
+    background-color: #041e41;
+}
+
+.testi-2{
+    width: 50%;
+    box-shadow: 2px 2px grey;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.testi-logo{
+    background-color: grey;
+    width: 50%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.testi-logo img{
+    padding-left: 20px;
+}
+
+.manter{
+    height: 30px;
+    width: 60px;
+}
+
+.brands{
+    width: 60%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.brands-logo{
+    width: 50%;
+    gap: 16px;
+}
+
+.amazon{
+    background-color: blue;
+    color: white;
+}
+.brands-abt{
+    width: 50%;
+}
+
+.brands-abt h1{
+    font-size: 50px;
+}
+
+.brands-abt p{
+    color: #041e41;
+    border: 1px solid blue;
+    background-color: aquamarine;
+    width: 160px;
+    padding: 3px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.brands-abt a{
+    text-decoration: none;
+    padding: 20px;
+    width: 30px;
+    color: white;
+    background-color: #4164E1;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+    border-top: 30px;
+}
+.brands-abt a:hover{
+    background-color: #4164;
+}
+
+.brands-logo div{
+    border: 1px solid black;
+    gap: 20px;
+    width: 150px;
+    padding: 20px;
+    border-radius: 30px;
+    justify-content: space-between;
+    justify-items: auto;
+}
+
+.bil-abt{
+    text-align: center;
+}
+
+.bil-abt h1{
+    font-size: 50px;
+    padding-top: 50px;
+}
+
+.bil-logo{
+    width: 70%;
+    margin: auto;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
+.bil-logo div{
+    border: 1px solid black;
+    gap: 20px;
+    width: 340px;
+    padding: 20px;
+    border-radius: 30px;
+    justify-content: space-between;
+    justify-items: auto;
+}
+
+.bil-logo ul li{
+    padding: 10px;
+}
+
+.bil-logo a{
+    text-decoration: none;
+    padding: 10px;
+    width: 70px;
+    color: white;
+    background-color: #4164E1;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+    border-top: 30px;
+    align-self: center;
+}
+
+span{
+    color: rgb(242, 99, 123);
+}
+
+.footer-abt{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-logo{
+    color: white;
+}
+.footer-main{
+    display: flex;
+}
+
+.footer-main ul li{
+    padding: 15px;
+}
 .footer{
     background-color:#041e41;
     color: white;
-    display: flex;
     padding: 100px;
 }
 
