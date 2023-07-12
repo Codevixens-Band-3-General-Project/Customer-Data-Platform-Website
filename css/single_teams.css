@@ -388,11 +388,11 @@ span.home > a, .span-2 {
     }
   }
 
-  #other-page {
+ #other-page {
     margin-top: 1em;
     font-size: 1.4rem;
     opacity: 0;
-    transform: translateY(-50px);
+    transform: translateY(50px);
     animation: otherpage 2s 0.s forwards;
   }
   @keyframes otherpage {
