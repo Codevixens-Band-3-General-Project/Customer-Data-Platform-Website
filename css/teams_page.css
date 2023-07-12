@@ -234,6 +234,64 @@ span.home > a, .span-2 {
 /* end of css styling for section-3  */
 
 /* start of css styling for footer  */
+
+/* footer animation starts */
+#logo-up {
+    margin-top: 1em;
+    font-size: 1.4rem;
+    opacity: 0;
+    transform: translateY(-50px);
+    animation: slidetop 2s 0.1s forwards;
+  }
+  @keyframes slidetop {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  #navigate-up {
+    margin-top: 1em;
+    font-size: 1.4rem;
+    opacity: 0;
+    transform: translateY(-50px);
+    animation: navigateup 2s 0.3s forwards;
+  }
+  @keyframes navigateup {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  #foot-content {
+    margin-top: 1em;
+    font-size: 1.4rem;
+    opacity: 0;
+    transform: translateY(-50px);
+    animation: footcontent 2s 0.6s forwards;
+  }
+  @keyframes footcontent {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  #news-letter {
+    margin-top: 1em;
+    font-size: 1.4rem;
+    opacity: 0;
+    transform: translateY(-50px);
+    animation: newsletter 2s 0.3s forwards;
+  }
+  @keyframes newsletter {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
 footer {
     background: #eeeef5;
     padding-top: 105px;
