@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
-    <scr src="https://kit.fontawesome.com/66034b6b5d.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/66034b6b5d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/css/single_teams.css">
 </head>
 <body>
@@ -159,7 +159,7 @@
     <footer>
         <div class="container pd">
              <div class="d-flex b-b fw">
-                 <div class="row-flex r-d">
+                 <div class="row-flex r-d" id="logo-up">
                      <div class="logo">
                          <a href="#">
                              <img src="/Assets/footer/logo.webp" alt="logo">
@@ -183,7 +183,7 @@
                          </ul>
                      </div>
                  </div>
-                 <div class="row-flex-2 r-d ta">
+                 <div class="row-flex-2 r-d ta" id="navigate-up">
                      <div class="footer-content">
                          <h4>Navigation</h4>
                          <ul>
@@ -208,7 +208,7 @@
                          </ul>
                      </div>
                  </div>
-                 <div class="rf-2 r-d ta">
+                 <div class="rf-2 r-d ta" id="other-page">
                      <div class="footer-content">
                          <h4>Other Pages</h4>
                          <ul>
@@ -233,7 +233,7 @@
                          </ul>
                      </div>
                  </div>
-                 <div class="rf-3 r-d Newsletter">
+                 <div class="rf-3 r-d Newsletter" id="news-letter">
                      <div>
                          <h4>Our Newsletter</h4>
                          <div class="email">
@@ -277,23 +277,21 @@
         </div>
     </footer>
      <!-- footer ends here  -->
+
+     <!-- JavaScript here -->
     <script>
-document.addEventListener("DOMContentLoaded", function() {
-  var textHead = document.querySelector('.text-head');
-  var span2 = document.querySelector('.span-2');
+       document.addEventListener("DOMContentLoaded", function() {
+       var textHead = document.querySelector('.text-head');
+       var span2 = document.querySelector('.span-2');
 
-  // Trigger initial fade-in animation
-  textHead.classList.add('show');
+       // Trigger initial fade-in animation
+       textHead.classList.add('show');
 
-  // Trigger pop-out animation after a delay
-  setTimeout(function() {
-    span2.classList.add('show');
-  }, 1000);
-});
-
-
-
-  
+      // Trigger pop-out animation after a delay
+     setTimeout(function() {
+     span2.classList.add('show');
+    }, 1000);
+      });
     </script>
         
 </body>
