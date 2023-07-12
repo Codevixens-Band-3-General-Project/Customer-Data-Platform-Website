@@ -611,3 +611,43 @@ img, svg {
 .pb-30 {
     padding-bottom: 30px;
 }
+.nav-container{
+    background-color: purple;
+    height: 500px;
+    width: 100%;
+    color: whitesmoke;
+  }
+  
+  nav{
+    display: flex;
+    flex-direction: row;
+    flex: 1fr 2fr 1fr;
+    color: azure;
+    width: inherit;
+    position: relative;
+    font-size: 20px;
+    justify-content: space-between;
+  }
+  nav a{
+    color: whitesmoke;
+    margin-right: 40px;
+  }
+  nav>div:nth-of-type(2){
+    position: absolute;
+    left: 250px
+  
+  }
+  nav>div:first-of-type{
+    position: absolute;
+    left: 50px;
+  }
+  nav>div:last-of-type{
+    position: absolute;
+    right: 50px;
+  }
+  
+  nav>div:last-of-type>img{
+    width: 30px;
+    height: 30px;
+  }
+
