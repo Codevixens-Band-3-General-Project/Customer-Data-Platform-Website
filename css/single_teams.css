@@ -378,7 +378,7 @@ span.home > a, .span-2 {
     margin-top: 1em;
     font-size: 1.4rem;
     opacity: 0;
-    transform: translateY(50px);
+    transform: translateY(-50px);
     animation: navigateup 2s 0.3s forwards;
   }
   @keyframes navigateup {
@@ -388,12 +388,12 @@ span.home > a, .span-2 {
     }
   }
 
-  #other-page {
+ #other-page {
     margin-top: 1em;
     font-size: 1.4rem;
     opacity: 0;
     transform: translateY(-50px);
-    animation: otherpage 2s 0.s forwards;
+    animation: otherpage 2s 0.5s forwards;
   }
   @keyframes otherpage {
     to {
