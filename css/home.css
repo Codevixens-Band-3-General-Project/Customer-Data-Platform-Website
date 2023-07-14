@@ -16,7 +16,8 @@ nav{
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    width: 100%;
+    width: 80%;
+    margin-top: 0;
 }
 
 .header-top{
@@ -47,6 +48,9 @@ nav{
     padding-top: 70px;
 }
 
+.leading form label{
+    align-content: center;
+}
 
 .list{
     display: flex;
@@ -181,6 +185,17 @@ ul{
     font-size: 70px;
 }
 
+.chc-div{
+    gap: 20px;
+    padding: 30px;
+
+}
+.check-details{
+    border: 1px solid black;
+    gap: 20px;
+    border-radius: 30px;
+    padding: 30px;
+}
 .wd-title{
     text-align: center;
 }
