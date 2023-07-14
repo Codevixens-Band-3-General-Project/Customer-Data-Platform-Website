@@ -6,6 +6,7 @@
 body{
   overflow-x: hidden;
   font-family: sans-serif;
+  align-items: center;
 }
 .container{
   background-color: purple;
@@ -56,27 +57,42 @@ nav>div:last-of-type>button{
   font-weight: bold;
 }
 
+nav>div:last-of-type>button:hover{
+  background-color: black;
+  color: white;
+  
+}
+
 nav>div:last-of-type>img{
   width: 20px;
   height: 20px;
 }
 .sec-one{
-  background: url("https://weblearnbd.net/tphtml/softec-prv/softec/assets/img/breadcrumb/breadcrumb-2.jpg");
   justify-content: center;
   align-items: center;
   width: 80%;
   height: 600px;
-  margin: -350px auto 40px auto;
+  margin: -350px auto 150px auto;
   padding-bottom: 0px;
-  border-radius: 10%;
+  border-radius: 50%;
   position: relative;
+  border: 5px solid black;
+}
+.sec-one > img{
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+  
+  
 }
 .sec-one>span{
   position: absolute;
-  top:100px;
+  top:20px;
+  left: 0;
   color: purple;
   font-size: 80px;
   font-weight: bolder;
+  
 }
 main>section:nth-of-type(2){
   text-align: center;
