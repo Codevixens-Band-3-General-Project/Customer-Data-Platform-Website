@@ -436,7 +436,7 @@ main>section:nth-of-type(4)>div{
 
 
 .position:hover{
-  animation: move-outwards 2s ease-in-out ;
+  animation: move-outwards 1s ease-in-out ;
 }
 .position>div{
   width: 100%;
