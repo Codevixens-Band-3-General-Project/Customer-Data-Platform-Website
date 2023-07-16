@@ -32,6 +32,9 @@ nav.scrol {
 nav.scrol button {
   border: 1px solid #cccaca;
 }
+nav.scrol .login a:hover {
+  color: unset;
+}
 nav.scrol,
 nav.scrol a,
 nav.scrol .login {
@@ -88,12 +91,16 @@ nav .dropdown-menu li:hover {
   align-items: center;
   gap: 3em;
 }
-.login {
-  color: white;
+
+.login a:hover {
+  color: #ecdaa2;
 }
-.login > img {
-  width: 15px;
-  height: 15px;
+.login a {
+  color: white;
+  text-decoration: none;
+}
+.login i {
+  font-size: 18px;
 }
 .get-started button {
   border: none;
@@ -103,6 +110,11 @@ nav .dropdown-menu li:hover {
   font-size: 0.9rem;
   border-radius: 25px;
 }
+.get-started button:hover {
+  background-color: #212529;
+  color: white;
+  cursor: pointer;
+}
 /* nav ends here */
 #content {
   margin-top: 100px;
@@ -110,7 +122,6 @@ nav .dropdown-menu li:hover {
 .pricing-div {
   display: flex;
   justify-content: space-between;
-  /* position: relative; */
 }
 /* price styling */
 .price-banner-title {
