@@ -96,6 +96,7 @@
             <div class="container">
                 <div class="row d-flex">
                     <div class="text">
+                    <div class="text text-head">
                         <h3>Team Single</h3>
                         <div>
                             <span class="home">
@@ -107,6 +108,7 @@
                             </span>
                             <span class="span-2"> > </span>
                             <span> Imdat Cimsit</span>
+                            <span>Team Member</span>
                         </div>
                     </div>
                     <div class="img">
@@ -235,7 +237,7 @@
     <footer>
         <div class="container pd">
              <div class="d-flex b-b fw">
-                 <div class="row-flex r-d">
+                 <div class="row-flex r-d" id="logo-up">
                      <div class="logo">
                          <a href="#">
                              <img src="/Assets/footer/logo.webp" alt="logo">
@@ -259,7 +261,7 @@
                          </ul>
                      </div>
                  </div>
-                 <div class="row-flex-2 r-d ta">
+                 <div class="row-flex-2 r-d ta" id="navigate-up">
                      <div class="footer-content">
                          <h4>Navigation</h4>
                          <ul>
@@ -284,7 +286,7 @@
                          </ul>
                      </div>
                  </div>
-                 <div class="rf-2 r-d ta">
+                 <div class="rf-2 r-d ta" id="other-page">
                      <div class="footer-content">
                          <h4>Other Pages</h4>
                          <ul>
@@ -309,7 +311,7 @@
                          </ul>
                      </div>
                  </div>
-                 <div class="rf-3 r-d Newsletter">
+                 <div class="rf-3 r-d Newsletter" id="news-letter">
                      <div>
                          <h4>Our Newsletter</h4>
                          <div class="email">
@@ -353,5 +355,22 @@
         </div>
     </footer>
      <!-- footer ends here  -->
+
+     <!-- JavaScript here -->
+    <script>
+       document.addEventListener("DOMContentLoaded", function() {
+       var textHead = document.querySelector('.text-head');
+       var span2 = document.querySelector('.span-2');
+
+       // Trigger initial fade-in animation
+       textHead.classList.add('show');
+
+      // Trigger pop-out animation after a delay
+     setTimeout(function() {
+     span2.classList.add('show');
+    }, 1000);
+      });
+    </script>
+        
 </body>
 </html>

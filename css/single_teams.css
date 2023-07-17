@@ -160,6 +160,28 @@ nav {
     color: #FFFFFF;
     padding-bottom: 12px;
 }
+.text-head {
+    opacity: 0;
+    transform: translateX(30px);
+    transition: opacity 1s, transform 1s;
+  }
+  
+  .text-head.show {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .span-2 {
+    transform: scale(0);
+    opacity: 0;
+    transition: transform 1s, opacity 1s;
+  }
+  
+  .span-2.show {
+    transform: scale(1);
+    opacity: 2;
+  }
+  
 
 span.home > a, .span-2 {
     color: #ffffffb3;
@@ -445,6 +467,78 @@ span.home > a, .span-2 {
 /* end of css styling for section-3  */
 
 /* start of css styling for footer  */
+
+/* footer animation starts */
+#logo-up {
+    margin-top: 1em;
+    font-size: 1.4rem;
+    opacity: 0;
+    transform: translateY(-50px);
+    animation: slidetop 2s 0.1s forwards;
+  }
+  @keyframes slidetop {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  #navigate-up {
+    margin-top: 1em;
+    font-size: 1.4rem;
+    opacity: 0;
+    transform: translateY(-50px);
+    animation: navigateup 2s 0.3s forwards;
+  }
+  @keyframes navigateup {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+ #other-page {
+    margin-top: 1em;
+    font-size: 1.4rem;
+    opacity: 0;
+    transform: translateY(-50px);
+    animation: otherpage 2s 0.5s forwards;
+  }
+  @keyframes otherpage {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  #news-letter {
+    margin-top: 1em;
+    font-size: 1.4rem;
+    opacity: 0;
+    transform: translateY(-50px);
+    animation: newsletter 2s 0.3s forwards;
+  }
+  @keyframes newsletter {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* .h1-list {
+    margin: 2em auto 1em auto;
+    text-align: center;
+    opacity: 0;
+    transform: translateX(-50px);
+    animation: slideleft 5s 1s forwards;
+  }
+  @keyframes slideleft {
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  } */
+/* animation ends */
 footer {
     background: #eeeef5;
     padding-top: 105px;
