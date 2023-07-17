@@ -11,15 +11,116 @@
 
 nav{
     background: linear-gradient(180.21deg, #FFF9F9 -64.58%, rgba(255, 255, 255, 0.1) 115.31%), linear-gradient(90deg, #FFC368 0%, #D569E1 50%, #4164E1 100%);
-    background-color: white;
+}
+
+/* navbar styling */
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    width: 80%;
-    margin-top: 0;
-}
-
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 1em 4.8em 1em 4em;
+    transition: opacity 0.3s ease-in;
+  }
+  nav.hide {
+    top: -100px;
+  }
+  nav.fixed {
+    top: 0;
+  }
+  nav.scrol {
+    box-shadow: 2px 1px 5px #e9e6e6;
+  }
+  nav.scrol button {
+    border: 1px solid #cccaca;
+  }
+  nav.scrol .login a:hover {
+    color: unset;
+  }
+  nav.scrol,
+  nav.scrol a,
+  nav.scrol .login {
+    background-color: white;
+    color: black;
+  }
+  
+  nav li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  nav li {
+    list-style-type: none;
+  }
+  nav li.dropdown:hover > .dropdown-menu {
+    display: block;
+  }
+  nav .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+  
+    padding: 2em;
+  }
+  
+  nav .dropdown-menu li a {
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  nav .dropdown-menu li:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .logo-links {
+    display: flex;
+    align-items: center;
+    width: 60%;
+  
+    gap: 4em;
+  }
+  .links {
+    display: flex;
+    gap: 3.5em;
+  }
+  .links a {
+    text-decoration: none;
+    color: white;
+  }
+  .login-class {
+    display: flex;
+    align-items: center;
+    gap: 3em;
+  }
+  
+  .login a:hover {
+    color: #ecdaa2;
+  }
+  .login a {
+    color: white;
+    text-decoration: none;
+  }
+  .login i {
+    font-size: 18px;
+  }
+  .get-started button {
+    border: none;
+    background-color: white;
+    padding: 1em 2em;
+    text-align: center;
+    font-size: 0.9rem;
+    border-radius: 25px;
+  }
+  .get-started button:hover {
+    background-color: #212529;
+    color: white;
+    cursor: pointer;
+  }
+  /* nav ends here */
 .header-top{
     display: flex;
     width: 95%;
