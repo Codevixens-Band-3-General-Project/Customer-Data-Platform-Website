@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 body{
+  margin: 0;
+  padding: 0;
   overflow-x: hidden;
   font-family: sans-serif;
   align-items: center;
@@ -16,69 +18,129 @@ body{
 }
 
 
-nav{
+/* navbar styling */
+nav {
   display: flex;
-  flex-direction: row;
-  flex: 1fr 2fr 1fr;
-  color: black;
-  width: inherit;
-  position: relative;
-  font-size: 20px;
   justify-content: space-between;
-  padding-top: 10px;
+  align-items: center;
   position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 1em 4.8em 1em 4em;
+  transition: opacity 0.3s ease-in;
+  z-index: 9999;
 }
-nav a{
+nav.hide {
+  top: -100px;
+}
+nav.fixed {
+  top: 0;
+}
+nav.scrol {
+  box-shadow: 2px 1px 5px #e9e6e6;
+}
+nav.scrol button {
+  border: 1px solid #cccaca;
+}
+nav.scrol .login a:hover {
+  color: unset;
+}
+nav.scrol,
+nav.scrol a,
+nav.scrol .login {
+  background-color: white;
   color: black;
-  margin-right: 40px;
-}
-nav>div:nth-of-type(2){
-  position: absolute;
-  left: 250px
-
-}
-nav>div:first-of-type{
-  position: absolute;
-  left: 50px;
-}
-nav>div:last-of-type{
-  position: absolute;
-  right: 50px;
-  
-}
-nav>div:last-of-type *{
-  margin-right: 10px;
-}
-nav>div:last-of-type>button{
-  height: 50px;
-  width: 150px;
-  border-radius: 10px;
-  font-size: 18px;
-  font-weight: bold;
 }
 
-nav>div:last-of-type>button:hover{
-  background-color: black;
+nav li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+}
+nav li {
+  list-style-type: none;
+}
+nav li.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+nav .dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: white;
+  z-index: 9999;
+  padding: 2em;
+}
+
+nav .dropdown-menu li a {
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+}
+nav .dropdown-menu li:hover {
+  background-color: #e0e0e0;
+}
+
+.logo-links {
+  display: flex;
+  align-items: center;
+  width: 60%;
+
+  gap: 4em;
+}
+.links {
+  display: flex;
+  gap: 3.5em;
+}
+.links a {
+  text-decoration: none;
   color: white;
-  
+}
+.login-class {
+  display: flex;
+  align-items: center;
+  gap: 3em;
 }
 
-nav>div:last-of-type>img{
-  width: 20px;
-  height: 20px;
+.login a:hover {
+  color: #ecdaa2;
 }
+.login a {
+  color: white;
+  text-decoration: none;
+}
+.login i {
+  font-size: 18px;
+}
+.get-started button {
+  border: none;
+  background-color: white;
+  padding: 1em 2em;
+  text-align: center;
+  font-size: 0.9rem;
+  border-radius: 25px;
+}
+.get-started button:hover {
+  background-color: #212529;
+  color: white;
+  cursor: pointer;
+}
+/* nav ends here */
+
 .sec-one{
   background: url("https://weblearnbd.net/tphtml/softec-prv/softec/assets/img/breadcrumb/breadcrumb-2.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
   justify-content: center;
   align-items: center;
   width: 80%;
   height: 600px;
   margin: -350px auto 150px auto;
   padding-bottom: 0px;
-  border-radius: 50%;
+  border-radius: 50px;
   position: relative;
-  border: 5px solid black;
+  border: none;
 }
 .sec-one > img{
   width: 100%;
@@ -88,7 +150,7 @@ nav>div:last-of-type>img{
   
 }
 .sec-one>span{
-  position: absolute;
+  /* position: absolute; */
   top:20px;
   left: 0;
   color: purple;
@@ -387,22 +449,41 @@ main>section:nth-of-type(4)>div{
 .timeline{
   padding: 50px;
 }
+
 .timeline-div{
   display: flex;
   flex-direction: row;
   padding: 10px 140px;
+  padding-bottom: 4rem;
+  overflow-x: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #000;
 }
 .timeline-div>div{
   display: flex;
   flex-direction: column;
-  box-shadow: 0 0 5px 5px gray;
+  box-shadow: 0 0 10px 10px rgb(235, 231, 231);
+  border-radius: 15px;
+  justify-content: center;
   margin-right: 70px;
   text-align: left;
-  padding: 10px;
+  flex-shrink: 0;
+  padding: 4rem;
   height: 200px;
   width: 300px;
   margin-top: 30px;
 }
+
+.timeline-div::-webkit-scrollbar {
+  width: 2px;
+  height: 3px;
+}
+
+.timeline-div::-webkit-scrollbar-thumb {
+  background-color: #000;
+  border-radius: 4px;
+}
+
 .container-position{
   text-align: center;
   margin-top: 80px;
