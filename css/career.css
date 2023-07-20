@@ -1,9 +1,19 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.main{
+  width: 95%;
+  margin: auto;
+  box-sizing: border-box;
+}
+
 /* navbar styling */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
     left: 0;
     top: 0;
     width: 100%;
@@ -107,3 +117,101 @@ nav {
     cursor: pointer;
   }
   /* nav ends here */
+
+  /* start of section-1 styling */
+.section-1{
+  background-color: #007aff;
+}
+
+.section-1-top{
+  text-align: center;
+}
+
+.section-1-top h3{
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+  padding-bottom: 0px;
+  margin-bottom: 0;
+}
+
+.section-1-top p{
+  margin-top: 0;
+  padding-top: -5px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 26px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.section-1-asset{
+  margin-top: -280px;
+  position: relative;
+  z-index: 3;
+  display: flex;
+  gap: 20px;
+  width: 80%;
+  margin: auto;
+}
+
+.border{
+  border-radius: 30px;
+}
+
+.section-1-asset img{
+  object-fit: contain;
+  border-radius: 30px;
+  gap: 20px;
+}
+
+/* end of section-1 styling */
+
+/* start of section-2 styling */
+.wh{
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.06em;
+  color: #6B14FA;
+  padding-bottom: 10px;
+  display: inline-block;
+  text-transform: uppercase
+}
+
+.d-flex{
+  display: flex;
+
+}
+
+.ou{
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.2;
+}
+
+.po{
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  color: var(--tp-common-black);
+  position: relative;
+  padding-left: 30px;
+}
+
+
+/* section 3 styling */
+.sect{
+  text-align: center;
+}
+
+.carreers{
+  width: 70%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.gp{
+  gap: 70px;
+}
