@@ -23,6 +23,143 @@ body {
   top: 0;
   padding: 50px;
 }
+/* sidebar styling */
+
+.show {
+  background-color: #000229;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: -500px;
+  width: 390px;
+  padding: 0 3.4em 5em 3.4em;
+  z-index: 9999;
+  transition: right 0.3s;
+  overflow-y: auto;
+}
+.show.active {
+  right: 0;
+}
+.hamburger {
+  font-size: 1.3rem;
+  padding: 0.8em;
+  cursor: pointer;
+  position: absolute;
+  top: 30px;
+  right: 60px;
+  cursor: pointer;
+  border: 1px solid #cccaca;
+  border-radius: 50%;
+}
+.logo {
+  display: flex;
+  padding-top: 2.6em;
+  justify-content: center;
+}
+.logo img {
+  width: 160px;
+}
+.times {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1.8rem;
+  cursor: pointer;
+  background-color: white;
+  padding: 0.3em 0.5em;
+}
+.main-links {
+  margin-top: 3em;
+}
+.main-links a {
+  text-decoration: none;
+  color: white;
+}
+.home a:hover {
+  color: #f7a2cc;
+}
+
+.contact {
+  border-bottom: unset;
+}
+.link-sign {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5em;
+  border-bottom: thin solid #444343;
+}
+.accordion {
+  cursor: pointer;
+  color: white;
+  transition: transform 0.3s;
+  border: thin solid #444343;
+  padding: 0.3em;
+}
+.accordion-content {
+  display: none;
+}
+
+.accordion-content li {
+  display: flex;
+  align-items: center;
+
+  padding: 0.5em 0;
+  border-bottom: thin solid #444343;
+}
+.accordion-content a:hover {
+  color: #f7a2cc;
+}
+.accordion-content.active {
+  display: block;
+}
+.accordion .fa-plus {
+  font-size: 1rem;
+}
+.accordion.active .fa-plus {
+  transform: rotate(45deg);
+}
+
+.social-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.social-image {
+  display: flex;
+  width: 100%;
+  gap: 1em;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.social-image img {
+  width: 90px;
+  height: 80px;
+}
+.social-para {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3em;
+}
+.social-para span {
+  color: #777272;
+}
+.social-icon {
+  display: flex;
+  gap: 1.5em;
+  color: #37b6f1;
+  margin-top: 2.5em;
+}
+.fa-brands {
+  background-color: white;
+  padding: 1em;
+  border-radius: 10px;
+}
+/* sidebar ends */
+
 .input-box .textfield {
   width: 80%;
   height: 55px;
