@@ -200,6 +200,9 @@ nav .dropdown-menu li:hover {
   justify-content: space-between;
   text-align: center;
 }
+.main2 h4{
+  font-size: 55px;
+}
 .today >div{
   padding-left: 0;
   justify-content: start;
@@ -210,9 +213,17 @@ nav .dropdown-menu li:hover {
   margin-left: 70px;
 }
 .team{
-  height: 70px;
-  border: 0.5px solid gray;
-
+  height: 100px;
+  border-top: 1px outset gray;
+  background-color: rgb(234, 240, 243);
+  
+}
+.team span{
+  font-size: 22px;
+}
+.team>div:first-of-type{
+  font-weight: bold;
+  font-size: 20px;
 }
 .main3{
   text-align: center;
@@ -333,4 +344,76 @@ nav .dropdown-menu li:hover {
 }
 .support p{
   font-size: 20px;
+}
+
+.service{
+  background:url("https://weblearnbd.net/tphtml/softec-prv/softec/assets/img/cta/cta-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 10px 140px;
+  margin:10px 30px;
+  height: 400px;
+  color: white;
+  border-radius: 20px;
+  
+}
+.service h2{
+  font-size: 35px;
+}
+.service p{
+  font-size: 20px;
+}
+.service button{
+  width: 200px;
+  height: 80px;
+  border-radius: 30px;
+  font-size: 22px;
+  margin-bottom: 40px;
+  
+}
+.service *{
+  margin-top: 30px;
+}
+.last{
+  margin-top: 50px;
+  background-color: #e9e6e6;
+  width: 100%;
+  padding: 20px;
+}
+.last input{
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+  border: none;
+}
+.last form{
+  width:300px ;
+  height: 50px;
+}
+.last button{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #6610f2;
+  color: white;
+}
+.last a, .last p{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+footer{
+  margin-top: 0px;
+  border-top: 1px solid gray;
+  text-align: center;
+  background-color: #e9e6e6;
+  height: 100px;
+  padding-top: 40px;
+}
+small{
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  color: gray;
 }
