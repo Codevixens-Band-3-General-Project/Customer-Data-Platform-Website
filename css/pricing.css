@@ -217,13 +217,19 @@ nav .dropdown-menu li:hover {
 .main3{
   text-align: center;
   margin-top: 100px;
+  height: 100%;
 }
-.main3>div{
+#sec{
+  height: 500px;
+  overflow-y: scroll;
+}
+.main3>div, #sec>div{
   height: 100px;
   border-radius: 10px;
   vertical-align: middle;
   align-content: center;
 }
+
 .main3 button{
   width: 150px;
   height: 50px;
@@ -242,7 +248,7 @@ nav .dropdown-menu li:hover {
 .main4{
   text-align: center;
   padding-top: 0px;
-  margin-top: 100px;
+  margin-top: 200px;
  
 }
 .main4>div{
@@ -267,7 +273,8 @@ nav .dropdown-menu li:hover {
 }
 .all_cards{
   background: url('https://weblearnbd.net/tphtml/softec-prv/softec/assets/img/testimonial/testi-bg-5-1.jpg');
-  height: 600px;
+  height: 800px;
+  
 }
 .arrow{
   width: 30px;
@@ -284,5 +291,46 @@ nav .dropdown-menu li:hover {
   height: 50px;
 }
 .main6{
-  height: 200px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  overflow-x:scroll;
+  overscroll-behavior-x: contain;
+}
+.main6 img:first-of-type{
+  width: 90px;
+  height:90px;
+  border-radius: 50%;
+}
+.main6 img :last-of-type{
+  width: 30px;
+  height: 30px;
+}
+.card-up{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(223, 235, 238);
+  width: 100%;
+}
+.main6-p{
+  font-size: 20px;
+  margin-top: 80px;
+}
+.main_card{
+  background-color: white;
+  width: 700px;
+  height: 500px;
+  border-radius: 15px;
+  margin-right: 30px;
+  padding: 40px;
+}
+.support{
+  margin-top: 100px;
+}
+.support h3{
+  font-size: 45px;
+}
+.support p{
+  font-size: 20px;
 }
