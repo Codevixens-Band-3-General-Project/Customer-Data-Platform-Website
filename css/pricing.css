@@ -338,12 +338,28 @@ nav .dropdown-menu li:hover {
 }
 .support{
   margin-top: 100px;
+  
 }
 .support h3{
   font-size: 45px;
 }
 .support p{
   font-size: 20px;
+}
+.collapse h2{
+  margin-left: 200px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+.collapse button{
+  width: 600px;
+  height: 100px;
+  border: none;
+  border-radius: 10px;
+}
+.collapse span{
+  margin-left: 150px;
+  padding-right: 0;
 }
 
 .service{
@@ -417,3 +433,7 @@ small{
   font-weight: 600;
   color: gray;
 }
+.collapse{
+  
+}
+
