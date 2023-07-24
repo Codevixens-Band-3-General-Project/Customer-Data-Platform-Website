@@ -1,0 +1,439 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.my-container {
+  padding: 1.5em 4em;
+  background-color: #6610f2;
+  height: 400px;
+}
+/* navbar styling */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 1em 4.8em 1em 4em;
+  transition: opacity 0.3s ease-in;
+}
+nav.hide {
+  top: -100px;
+}
+nav.fixed {
+  top: 0;
+}
+nav.scrol {
+  box-shadow: 2px 1px 5px #e9e6e6;
+}
+nav.scrol button {
+  border: 1px solid #cccaca;
+}
+nav.scrol .login a:hover {
+  color: unset;
+}
+nav.scrol,
+nav.scrol a,
+nav.scrol .login {
+  background-color: white;
+  color: black;
+}
+
+nav li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+}
+nav li {
+  list-style-type: none;
+}
+nav li.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+nav .dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: white;
+
+  padding: 2em;
+}
+
+nav .dropdown-menu li a {
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+}
+nav .dropdown-menu li:hover {
+  background-color: #e0e0e0;
+}
+
+.logo-links {
+  display: flex;
+  align-items: center;
+  width: 60%;
+
+  gap: 4em;
+}
+.links {
+  display: flex;
+  gap: 3.5em;
+}
+.links a {
+  text-decoration: none;
+  color: white;
+}
+.login-class {
+  display: flex;
+  align-items: center;
+  gap: 3em;
+}
+
+.login a:hover {
+  color: #ecdaa2;
+}
+.login a {
+  color: white;
+  text-decoration: none;
+}
+.login i {
+  font-size: 18px;
+}
+.get-started button {
+  border: none;
+  background-color: white;
+  padding: 1em 2em;
+  text-align: center;
+  font-size: 0.9rem;
+  border-radius: 25px;
+}
+.get-started button:hover {
+  background-color: #212529;
+  color: white;
+  cursor: pointer;
+}
+/* nav ends here */
+#content {
+  margin-top: 100px;
+}
+.pricing-div {
+  display: flex;
+  justify-content: space-between;
+}
+/* price styling */
+.price-banner-title {
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  padding-bottom: 22px;
+  transition: all 0.3s ease-out 0s;
+}
+.price-banner-title-box p {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 16px;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+.discount-save {
+  display: flex;
+  justify-content: flex-end;
+}
+.tp-price__btn-offer-tag {
+  background-color: #d63384;
+  color: white;
+  padding: 1rem 0.8rem 0 0.8rem;
+  font-size: 10px;
+  border-radius: 50%;
+}
+/* toggle button */
+.my-content {
+  background-color: white;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+  padding: 0.3rem 0;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.month {
+  width: 50%;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+.active {
+  background-color: #6610f2;
+  border-radius: 40px;
+  padding: 0.5rem 1rem;
+  font-size: 18px;
+}
+.year {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+.year-page {
+  display: none;
+}
+/* togggle ends */
+.main2{
+  height: auto;
+  margin-top: 40px;
+  border-radius: 20px;
+  width: 95%;
+  text-align: center;
+  
+}
+.main2>div{
+  padding: 2px 0;
+  width: 100%;
+  justify-content: space-between;
+  text-align: center;
+}
+.main2 h4{
+  font-size: 55px;
+}
+.today >div{
+  padding-left: 0;
+  justify-content: start;
+  text-align: start;
+  
+}
+.team>div:nth-of-type(2){
+  margin-left: 70px;
+}
+.team{
+  height: 100px;
+  border-top: 1px outset gray;
+  background-color: rgb(234, 240, 243);
+  
+}
+.team span{
+  font-size: 22px;
+}
+.team>div:first-of-type{
+  font-weight: bold;
+  font-size: 20px;
+}
+.main3{
+  text-align: center;
+  margin-top: 100px;
+  height: 100%;
+}
+#sec{
+  height: 500px;
+  overflow-y: scroll;
+}
+.main3>div, #sec>div{
+  height: 100px;
+  border-radius: 10px;
+  vertical-align: middle;
+  align-content: center;
+}
+
+.main3 button{
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+.main3 button:hover{
+  background-color: #6610f2;
+}
+.colo{
+  background-color: rgb(233, 242, 245);
+}
+
+.main4{
+  text-align: center;
+  padding-top: 0px;
+  margin-top: 200px;
+ 
+}
+.main4>div{
+  width: 90%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main4>div>img{
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.main4>h1{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.main4>p{
+  color: gray;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.all_cards{
+  background: url('https://weblearnbd.net/tphtml/softec-prv/softec/assets/img/testimonial/testi-bg-5-1.jpg');
+  height: 800px;
+  
+}
+.arrow{
+  width: 30px;
+  height: 30px;
+}
+.main5{
+  justify-content: space-between;
+  padding-top: 100px;
+  padding-left: 100px;
+  color: white;
+}
+.image1{
+  width: 50px;
+  height: 50px;
+}
+.main6{
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  overflow-x:scroll;
+  overscroll-behavior-x: contain;
+}
+.main6 img:first-of-type{
+  width: 90px;
+  height:90px;
+  border-radius: 50%;
+}
+.main6 img :last-of-type{
+  width: 30px;
+  height: 30px;
+}
+.card-up{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(223, 235, 238);
+  width: 100%;
+}
+.main6-p{
+  font-size: 20px;
+  margin-top: 80px;
+}
+.main_card{
+  background-color: white;
+  width: 700px;
+  height: 500px;
+  border-radius: 15px;
+  margin-right: 30px;
+  padding: 40px;
+}
+.support{
+  margin-top: 100px;
+  
+}
+.support h3{
+  font-size: 45px;
+}
+.support p{
+  font-size: 20px;
+}
+.collapse h2{
+  margin-left: 200px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+.collapse button{
+  width: 600px;
+  height: 100px;
+  border: none;
+  border-radius: 10px;
+}
+.collapse span{
+  margin-left: 150px;
+  padding-right: 0;
+}
+
+.service{
+  background:url("https://weblearnbd.net/tphtml/softec-prv/softec/assets/img/cta/cta-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 10px 140px;
+  margin:10px 30px;
+  height: 400px;
+  color: white;
+  border-radius: 20px;
+  
+}
+.service h2{
+  font-size: 35px;
+}
+.service p{
+  font-size: 20px;
+}
+.service button{
+  width: 200px;
+  height: 80px;
+  border-radius: 30px;
+  font-size: 22px;
+  margin-bottom: 40px;
+  
+}
+.service *{
+  margin-top: 30px;
+}
+.last{
+  margin-top: 50px;
+  background-color: #e9e6e6;
+  width: 100%;
+  padding: 20px;
+}
+.last input{
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+  border: none;
+}
+.last form{
+  width:300px ;
+  height: 50px;
+}
+.last button{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #6610f2;
+  color: white;
+}
+.last a, .last p{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+footer{
+  margin-top: 0px;
+  border-top: 1px solid gray;
+  text-align: center;
+  background-color: #e9e6e6;
+  height: 100px;
+  padding-top: 40px;
+}
+small{
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  color: gray;
+}
+.collapse{
+  
+}
+
